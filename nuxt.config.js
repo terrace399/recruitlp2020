@@ -39,6 +39,11 @@ export default {
    ** Nuxt.js modules
    */
   modules: ['@nuxtjs/pwa', '@nuxtjs/style-resources'],
+  webfontloader: {
+    google: {
+      families: ['游ゴシック体','Avenir','Lato']
+    }
+  }
   /*
    ** Style resources
    */
